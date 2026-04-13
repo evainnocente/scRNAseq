@@ -17,3 +17,17 @@ I loaded the data as a Seurat object into R Studio v4.5.2. For reproducibility, 
 I ran a PCA to reduce dimensionality and used the elbow method to determine the optimal number of principal components. I used the optimal number of PCs to find clusters in the data using a resolution value of 0.5, as specified by the “Seurat Guided Clustering Tutorial” (https://satijalab.org/seurat/articles/pbmc3k_tutorial.html#cluster-the-cells). I annotated the clusters with the SingleR package v2.12.0 (Aran et al., 2019), using the fine-scale labels for more detail as per Lun (2025). I focused on only one cell type cluster (neurons) for further analyses.
 
 I pseudobulked the samples in order to assess differential expression of genes (as per Murphy & Skene, 2022) in the neurons cluster, which I did with DESeq2 v1.50.2 (Love, Hubers, & Anders, 2014). I looked at the expression of genes between time points: comparing gene expression at two, five, eight, and fourteen days post influenza infection compared to naïve state (0 days post infection; Kazer et al., 2025). I then performed Gene Set Enrichment Analysis with the clusterProfiler package v.4.18.4 (Yu et al., 2012), focusing on comparing naïve vs fourteen days post infection time points. 
+
+## Results
+
+The optimal number of PCs was 17 according to the elbow plot (Fig. 1). Clustering analysis found that there are 34 cell-type clusters in the data (Fig. 2).
+
+<img width="3000" height="2400" alt="elbow" src="https://github.com/user-attachments/assets/c6a21d35-cf13-421f-af3d-ceaf7b024d59" />
+
+
+
+
+Each time point of the experiment had a different composition of cell type clusters (Fig. 3). A UMAP of the labelled clusters is shown in Fig. 4. One of the largest clusters was the cell type neurons, which is what I chose to focus on for further analysis.
+
+While I calculated the differential expression between Naïve and all other time points, I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 1. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 5. 
+
