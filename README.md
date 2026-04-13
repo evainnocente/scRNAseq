@@ -22,12 +22,18 @@ I pseudobulked the samples in order to assess differential expression of genes (
 
 The optimal number of PCs was 17 according to the elbow plot (Fig. 1). Clustering analysis found that there are 34 cell-type clusters in the data (Fig. 2).
 
-<img width="3000" height="2400" alt="elbow" src="https://github.com/user-attachments/assets/c6a21d35-cf13-421f-af3d-ceaf7b024d59" />
+<img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" />
 
 
+<img width="3000" height="2400" alt="clusters_UMAP" src="https://github.com/user-attachments/assets/17cb6229-ac4d-4e8f-85ab-c19939f7179c" />
 
+
+<img width="3000" height="2400" alt="DE_d14_vs_naive_volcanoplot" src="https://github.com/user-attachments/assets/c3865670-ac9e-498b-b388-add70802b0e0" />
+
+<img width="3000" height="2400" alt="gsea_d14_vs_naive_dotplot" src="https://github.com/user-attachments/assets/744b66d6-5927-435a-9f9e-b22475c1bda1" />
 
 Each time point of the experiment had a different composition of cell type clusters (Fig. 3). A UMAP of the labelled clusters is shown in Fig. 4. One of the largest clusters was the cell type neurons, which is what I chose to focus on for further analysis.
+
 
 While I calculated the differential expression between Naïve and all other time points, I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 1. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 5. 
 
