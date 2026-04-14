@@ -29,18 +29,21 @@ Figure 1. Elbow plot used to determine optimal number of principal components.
 
 Figure 2. UMAP of cell type clusters in the data.
 
+Each time point of the experiment had a different composition of cell type clusters (Fig. 3A), as did each tissue type (Fig. 3B). A UMAP of the labelled clusters is shown in Fig. 4. The top cluster (cluster 0) was annotated as Neurons, so I focused on this cluster only for further analyses. The top 20 most significantly upregulated markers in this cluster compared to all other clusters are found in Table 1.
+
 <img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" />
 
 Figure 3A. Composition of cell type clusters in the data at different experimental timepoints and B) different tissue types.
 
 <img width="3000" height="2400" alt="clusters_UMAP" src="https://github.com/user-attachments/assets/17cb6229-ac4d-4e8f-85ab-c19939f7179c" />
 
+Figure 4. UMAP of cell type clusters in the data, annotated by SingleR. After annotation, the data only separated into 14 distinct clusters instead of 34. 
 
 <img width="3000" height="2400" alt="DE_d14_vs_naive_volcanoplot" src="https://github.com/user-attachments/assets/c3865670-ac9e-498b-b388-add70802b0e0" />
 
 <img width="3000" height="2400" alt="gsea_d14_vs_naive_dotplot" src="https://github.com/user-attachments/assets/744b66d6-5927-435a-9f9e-b22475c1bda1" />
 
-Each time point of the experiment had a different composition of cell type clusters (Fig. 3). A UMAP of the labelled clusters is shown in Fig. 4. One of the largest clusters was the cell type neurons, which is what I chose to focus on for further analysis.
+
 
 
 While I calculated the differential expression between Naïve and all other time points, I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 1. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 5. 
