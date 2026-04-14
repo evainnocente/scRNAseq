@@ -22,8 +22,9 @@ I pseudobulked the samples in order to assess differential expression of genes (
 
 The optimal number of PCs was 17 according to the elbow plot (Fig. 1). Clustering analysis found that there are 34 cell-type clusters in the data (Fig. 2).
 
-<img width="3000" height="2400" alt="elbow" src="https://github.com/user-attachments/assets/50a86836-0bcc-4ead-95b2-97731e09747e" />
+<img width="2130" height="1467" alt="elbow" src="https://github.com/user-attachments/assets/85d1f0eb-3693-430c-8d26-6ece6881b174" />
 
+Figure 1. Elbow plot used to determine optimal number of principal components.
 
 <img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" />
 
