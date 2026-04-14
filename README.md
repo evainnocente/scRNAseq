@@ -114,3 +114,40 @@ Overall, this analysis provides an insight into the cell types that make up each
 
 ## References
 
+Amezquita, R. A., Lun, A. T. L., Becht, E., Carey, V. J., Carpp, L. N., Geistlinger, L., Marini, F., Rue-Albrecht, K., Risso, D., Soneson, C., Waldron, L., Pagès, H., Smith, M. L., Huber, W., Morgan, M., Gottardo, R., & Hicks, S. C. (2020). Orchestrating single-cell analysis with Bioconductor. Nature Methods, 17(2), 137–145. https://doi.org/10.1038/s41592-019-0654-x
+
+Aran, D., Looney, A. P., Liu, L., Wu, E., Fong, V., Hsu, A., Chak, S., Naikawadi, R. P., Wolters, P. J., Abate, A. R., Butte, A. J., & Bhattacharya, M. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nature Immunology, 20(2), 163–172. https://doi.org/10.1038/s41590-018-0276-y
+
+ATP synthase F0 subunit 8. (n.d.). NCBI. Retrieved April 14, 2026, from https://www.ncbi.nlm.nih.gov/datasets/gene/17706/
+
+Billato, I., Pages, H., Carey, V., Waldron, L., Sales, G., Romualdi, C., & Risso, D. (2025). Benchmarking large-scale single-cell RNA-seq analysis. https://doi.org/10.1101/2025.10.28.681564
+
+Butler, A., Hoffman, P., Smibert, P., Papalexi, E., & Satija, R. (2018). Integrating single-cell transcriptomic data across different conditions, technologies, and species. Nature Biotechnology, 36(5), 411–420. https://doi.org/10.1038/nbt.4096
+
+Cyclic nucleotide gated channel alpha 4. (n.d.). NCBI. Retrieved April 14, 2026, from https://www.ncbi.nlm.nih.gov/datasets/gene/233649/
+
+Germain, P.-L., Sonrel, A., & Robinson, M. D. (2020). Pipecomp, a general framework for the evaluation of computational pipelines, reveals performant single cell rna-seq preprocessing tools. Genome Biology, 21(1), 227. https://doi.org/10.1186/s13059-020-02136-7
+
+He, J., Lin, L., & Chen, J. (2022). Practical bioinformatics pipelines for single-cell RNA-seq data analysis. Biophysics Reports, 8(3), 158–169. https://doi.org/10.52601/bpr.2022.210041
+
+Jovic, D., Liang, X., Zeng, H., Lin, L., Xu, F., & Luo, Y. (2022). Single‐cell RNA sequencing technologies and applications: A brief overview. Clinical and Translational Medicine, 12(3), e694. https://doi.org/10.1002/ctm2.694
+
+Kazer, S. W., Match, C. M., Langan, E. M., Messou, M.-A., LaSalle, T. J., O’Leary, E., Marbourg, J., Naughton, K., von Andrian, U. H., & Ordovas-Montanes, J. (2024). Primary nasal influenza infection rewires tissue-scale memory response dynamics. Immunity, 57(8), 1955-1974.e8. https://doi.org/10.1016/j.immuni.2024.06.005
+
+Koshiba, T., Bashiruddin, N., & Kawabata, S. (2011). Mitochondria and antiviral innate immunity. International Journal of Biochemistry and Molecular Biology, 2(3), 257–262. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193288/
+
+Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+
+Lun, A. (2025). Assigning cell types with SingleR. https://bioconductor.org/books/release/SingleRBook/
+
+Lun, A. T. L., & Kancherla, J. (2023). Powering single-cell analyses in the browser with WebAssembly. Journal of Open Source Software, 8(89), 5603. https://doi.org/10.21105/joss.05603
+
+Murphy, A. E., & Skene, N. G. (2022). A balanced measure shows superior performance of pseudobulk methods in single-cell RNA-sequencing analysis. Nature Communications, 13(1), 7851. https://doi.org/10.1038/s41467-022-35519-4
+
+Parathyroid hormone 2. (n.d.). NCBI. Retrieved April 14, 2026, from https://www.ncbi.nlm.nih.gov/datasets/gene/114640/
+
+Shao, H., Lan, D., Duan, Z., Liu, Z., Min, J., Zhang, L., Huang, J., Su, J., Chen, S., & Xu, A. (2006). Upregulation of mitochondrial gene expression in pbmc from convalescent sars patients. Journal of Clinical Immunology, 26(6), 546–554. https://doi.org/10.1007/s10875-006-9046-y
+
+Yu, G., Wang, L.-G., Han, Y., & He, Q.-Y. (2012). Clusterprofiler: An r package for comparing biological themes among gene clusters. OMICS : A Journal of Integrative Biology, 16(5), 284–287. https://doi.org/10.1089/omi.2011.0118
+
+
