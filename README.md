@@ -35,8 +35,7 @@ Figure 2. UMAP of 34vcell type clusters in the data.
 
 Each time point of the experiment had a different composition of cell type clusters (Fig. 3A), as did each tissue type (Fig. 3B). A UMAP of the labelled clusters is shown in Fig. 4. The top cluster (cluster 0) was annotated as Neurons, so I focused on this cluster only for further analyses. The top 20 most significantly upregulated markers in this cluster compared to all other clusters are found in Table 1.
 
-<img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" /><img width="3000" height="2400" alt="clusters_tissues" src="https://github.com/user-attachments/assets/a7b45604-bce2-436d-8c96-0d432fac5e69" />
-
+<img width="3000" height="2400" alt="fig3" src="https://github.com/user-attachments/assets/e8dae9bb-8c6f-495a-a89e-35294259568a" />
 
 Figure 3A. Composition of cell type clusters in the data at different experimental timepoints and B) different tissue types.
 
