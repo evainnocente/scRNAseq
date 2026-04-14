@@ -71,7 +71,7 @@ Within the Neurons cluster, I calculated the differential expression between Na√
 
 Figure 5. Volcano plot of the differentially epxressed genes in the neuron cell type cluster, between 0 and 14 days post influenza infection.
 
-Table 2.
+Table 2. Top 20 significantly differentially expressed genes at 14 days post infetcion compared to 0 days post infection, in the neurons cell type cluster.  
 
 | gene     | baseMean    | log2FoldChange | lfcSE       | pvalue               | padj                 |
 |----------|-------------|----------------|-------------|----------------------|----------------------|
