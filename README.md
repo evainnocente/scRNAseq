@@ -39,6 +39,33 @@ Figure 3A. Composition of cell type clusters in the data at different experiment
 
 Figure 4. UMAP of cell type clusters in the data, annotated by SingleR. After annotation, the data only separated into 14 distinct clusters instead of 34. 
 
+Table 1.
+
+Gene	p_val	avg_log2FC	pct.1	pct.2	p_val_adj	cluster
+Cnga4	0	7.501545559	0.729	0.007	0	Neurons
+Gm11992	0	7.323761053	0.682	0.007	0	Neurons
+Pth2	0	7.172649403	0.504	0.005	0	Neurons
+Ano2	0	7.121006938	0.656	0.007	0	Neurons
+Kcnc4	0	6.947227081	0.775	0.01	0	Neurons
+Umodl1	0	6.889571972	0.925	0.015	0	Neurons
+Nrn1l	0	6.846576326	0.885	0.013	0	Neurons
+Adcy3	0	6.815156114	0.94	0.022	0	Neurons
+Slc1a2	0	6.743434866	0.656	0.009	0	Neurons
+Faim2	0	6.742757849	0.863	0.013	0	Neurons
+Cnga2	0	6.709677889	0.879	0.014	0	Neurons
+Gm6878	0	6.704290364	0.273	0.003	0	Neurons
+Cngb1	0	6.649576135	0.703	0.01	0	Neurons
+A730046J19Rik	0	6.533680827	0.574	0.009	0	Neurons
+Gldc	0	6.501306585	0.363	0.005	0	Neurons
+Ric8b	0	6.398302096	0.927	0.025	0	Neurons
+Dlg2	0	6.379007892	0.419	0.015	0	Neurons
+Atp8b3	0	6.35937516	0.259	0.003	0	Neurons
+Fam81b	0	6.341692151	0.771	0.012	0	Neurons
+S100a5	0	6.326618528	0.951	0.363	0	Neurons
+
+<img width="561" height="505" alt="image" src="https://github.com/user-attachments/assets/af43c937-8865-426b-97f3-0d82f7605c39" />
+
+
 <img width="3000" height="2400" alt="DE_d14_vs_naive_volcanoplot" src="https://github.com/user-attachments/assets/c3865670-ac9e-498b-b388-add70802b0e0" />
 
 <img width="3000" height="2400" alt="gsea_d14_vs_naive_dotplot" src="https://github.com/user-attachments/assets/744b66d6-5927-435a-9f9e-b22475c1bda1" />
