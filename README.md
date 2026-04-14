@@ -73,13 +73,7 @@ Figure 5. Volcano plot of the differentially epxressed genes in the neuron cell 
 
 <img width="3000" height="2400" alt="gsea_d14_vs_naive_dotplot" src="https://github.com/user-attachments/assets/744b66d6-5927-435a-9f9e-b22475c1bda1" />
 
-
-
-
-
-
-
--	Find top marker genes in neurons
+Figure 6. Dotplot of significantly enriched GO categories between 0 and 14 days post infection in the neurons cell type cluster. 
 
   
 ## Discussion
