@@ -1,4 +1,7 @@
-# scRNAseq
+# Analysis of scRNAseq data across cell and tissue types in response to influenza-A infection in mice
+### BINF 6110
+### Eva Burguete-Innocente
+### April 14th, 2026
 
 ## Introduction
 
