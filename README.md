@@ -26,8 +26,12 @@ The optimal number of PCs was 17 according to the elbow plot (Fig. 1). Clusterin
 
 Figure 1. Elbow plot used to determine optimal number of principal components.
 
+
+Figure 2. UMAP of cell type clusters in the data.
+
 <img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" />
 
+Figure 3A. Composition of cell type clusters in the data at different experimental timepoints and B) different tissue types.
 
 <img width="3000" height="2400" alt="clusters_UMAP" src="https://github.com/user-attachments/assets/17cb6229-ac4d-4e8f-85ab-c19939f7179c" />
 
