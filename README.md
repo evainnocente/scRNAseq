@@ -39,7 +39,7 @@ Figure 3A. Composition of cell type clusters in the data at different experiment
 
 Figure 4. UMAP of cell type clusters in the data, annotated by SingleR. After annotation, the data only separated into 14 distinct clusters instead of 34. 
 
-Table 1.
+Table 1. Top 20 significant upregulated markers in Neurons cluster, compared to all other clusters in the data.
 
 | Gene          | p_val | avg_log2FC  | pct.1 | pct.2 | p_val_adj | cluster |
 |---------------|-------|-------------|-------|-------|-----------|---------|
@@ -68,7 +68,6 @@ Table 1.
 
 
 
-<img width="561" height="505" alt="image" src="https://github.com/user-attachments/assets/af43c937-8865-426b-97f3-0d82f7605c39" />
 
 
 <img width="3000" height="2400" alt="DE_d14_vs_naive_volcanoplot" src="https://github.com/user-attachments/assets/c3865670-ac9e-498b-b388-add70802b0e0" />
