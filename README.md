@@ -67,10 +67,9 @@ Table 1. Top 20 significant upregulated markers in Neurons cluster, compared to 
 
 Within the Neurons cluster, I calculated the differential expression between Naïve cells and all other time points, but I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 2 and Fig. 5. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 6. 
 
-
-
-
 <img width="3000" height="2400" alt="DE_d14_vs_naive_volcanoplot" src="https://github.com/user-attachments/assets/c3865670-ac9e-498b-b388-add70802b0e0" />
+
+Figure 5. Volcano plot of the differentially epxressed genes in the neuron cell type cluster, between 0 and 14 days post influenza infection.
 
 <img width="3000" height="2400" alt="gsea_d14_vs_naive_dotplot" src="https://github.com/user-attachments/assets/744b66d6-5927-435a-9f9e-b22475c1bda1" />
 
