@@ -22,6 +22,9 @@ I pseudobulked the samples in order to assess differential expression of genes (
 
 The optimal number of PCs was 17 according to the elbow plot (Fig. 1). Clustering analysis found that there are 34 cell-type clusters in the data (Fig. 2).
 
+<img width="3000" height="2400" alt="elbow" src="https://github.com/user-attachments/assets/50a86836-0bcc-4ead-95b2-97731e09747e" />
+
+
 <img width="3000" height="2400" alt="clusters_timepoints" src="https://github.com/user-attachments/assets/e1d47b25-ca10-4053-a20e-82e40f4ba73d" />
 
 
@@ -36,4 +39,18 @@ Each time point of the experiment had a different composition of cell type clust
 
 
 While I calculated the differential expression between Naïve and all other time points, I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 1. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 5. 
+
+
+-	Find top marker genes in neurons
+
+  
+## Discussion
+
+I detected 34 clusters, which after annotation, represented only 14 distinct clusters of cell types. This could represent a limitation of the analyses, and in the future I would annotate the clusters manually in order to capture as much distinction between cell types as possible. Given that Kazer et al. (2025) detected 42 cell type clusters, it seems that my analysis is unable to distinguish some cell types from others.
+
+However, similar to Kazer et al. (2025), neural cells and fibroblasts were some of the largest clusters (Fig. **). I also found that cell types were represented unevenly across tissue types (OM, RM, LNG) and time points (0, 2, 5, 8, 14 days post infection). (Fig. **). Neurons were identified as the top cluster (cluster 0). Within the neurons cluster, the top 20 significant genes with the largest positive log-fold change can be seen in Table **. These genes are upregulated in neurons compared to all other cell types in the data. Some of the top genes include Pth2 (parathyroid hormone 2) which is expressed in the brain and involved in pituitary hormone release, anxiety, and nociception (RefSeq: NM_053256.2), as well as Cnga4 (cyclic nucleotide gated channel alpha 4) which is involved in smell (RefSeq: NM_001033317.3). That these genes are included in the neurons cluster corroborates that the cell types in the data have been clustered correctly. In fact, Kazer et al. (2025) reported that olfactory sensory neurons, and neurons in general, represent a large fraction of their dataset, representative of their importance in the mouse nasal mucosa. 
+
+I also assessed differential expression of genes and GO term enrichment in the neuron cluster across time points of the experiment, and in particular between 0 and 14 days post infection, as by this time, cellular composition of the tissue has changed from the naïve state (Kazer et al., 2025). The significantly differentially expressed gene with the largest absolute log-fold change between 0 and 14 days post infection was mt-Atp8 (LFC = 2.129425, adjusted p-value = 1.39433673989524 x 10-16). This is a mitochondrial gene that is involved in ATP synthase activity (source). A study of peripheral blood mononuclear cells found that mitochondrial genes are upregulated in response to Sars-COV2 infection (Shao et al., 2006), and mitochondria may play a role in antiviral immunity more broadly (Koshiba, Bashiruddin, & Kawabata, 2011). That mt-Atp8 is upregulated in neurons after influenza-A infection could hint at its involvement in viral immunity, and presents an interesting avenue for future research. Further support for the involvement of mitochondria in antiviral immunity is the significant enrichment of the GO categories “mitochondrial ATP synthesis”, “mitochondrial gene expression”, and “mitochondrial translation” (Fig. **). 
+
+Overal...
 
