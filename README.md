@@ -65,7 +65,7 @@ Table 1. Top 20 significant upregulated markers in Neurons cluster, compared to 
 | S100a5        | 0     | 6.326618528 | 0.951 | 0.363 | 0         | Neurons |
 
 
-
+Within the Neurons cluster, I calculated the differential expression between Naïve cells and all other time points, but I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 2 and Fig. 5. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 6. 
 
 
 
@@ -77,7 +77,7 @@ Table 1. Top 20 significant upregulated markers in Neurons cluster, compared to 
 
 
 
-While I calculated the differential expression between Naïve and all other time points, I will only report the results of the comparison between Naïve and 14 days post-infection for the sake of clarity. The top 20 most differentially expressed significant genes between naïve and day 14 of infection are found in Table 1. Gene Set Enrichment Analysis detected several enriched GO terms, seen in Fig. 5. 
+
 
 
 -	Find top marker genes in neurons
